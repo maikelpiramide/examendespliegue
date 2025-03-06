@@ -16,7 +16,8 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 const options: cors.CorsOptions = {
     origin:[
         "http://localhost:5173",
-        "https://front.maikelexamen.daw.cpifppiramide.com:8080"
+        "https://front.maikelexamen.daw.cpifppiramide.com:8080",
+        "https://maikelexamen.daw.cpifppiramide.com"
     ]
 };
 
